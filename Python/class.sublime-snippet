@@ -5,8 +5,8 @@ class ${1:ClassName}(${2:object}):
 	"""${3:docstring for $1}"""
 	def __init__(self${4:, ${5:arg}}):
 		"""${6:docstring for init}"""
-		${7:super($1, self).__init__()}
-		${8:self._${9:var} = $5}
+		${7:self._${8:var} = $5}
+		${9:super(self.__class__, self).__init__(${10:parent_arg})}
 	$0
 ]]>
 </content>

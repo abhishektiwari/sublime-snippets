@@ -1,11 +1,9 @@
 <snippet>
-<content>
-<![CDATA[
-except (${1:name1}${2:, ${3:name2}}${4:, ${5:name3}}, ${6:X}):
-	$0
-]]>
-</content>
-	<tabTrigger>try</tabTrigger>
-	<scope>source.python</scope>
-	<description>Except</description>
+    <content><![CDATA[try:
+	${1:pass}
+except ${2:Exception} as ${3:e}:
+	${4:raise $3}]]></content>
+    <tabTrigger>try</tabTrigger>
+    <scope>source.python</scope>
+    <description>Try/Except</description>
 </snippet>

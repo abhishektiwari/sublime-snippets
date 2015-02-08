@@ -15,26 +15,26 @@ class ${1:ClassName}(${2:object}):
 		self._${8:var2} = ${5}
 		self.${9:ldata} = []
 		# If it is derived class pass args to base class
-		super($1, self).__init__(${10:args})
+		${10:super(self.__class__, self).__init__(${11:args})}
 
 		# Using List
 		self.Instances.append(self)
 
 	def __repr__(self):
-		return ${11:string used by the interpreter to print instances}
+		return ${12:string used by the interpreter to print instances}
 
 	def __str__(self):
-		return ${12:string used by print and str}
+		return ${13:string used by print and str}
 
 	# Predicates
-	def __lt__(self, ${13:other}):
-		if type(self) != type($13):
+	def __lt__(self, ${14:other}):
+		if type(self) != type($14):
 			raise Exception(
-				'Incompatible argument to __lt__: ' + str($13))
-		return ${14:self.${15:somemethod}() < $13.${15:somemethod}()}
+				'Incompatible argument to __lt__: ' + str($14))
+		return ${15:self.${16:somemethod}() < $14.${16:somemethod}()}
 
-	def is_some_${16:characteristic}(self):
-		return ${17:True or False}
+	def is_some_${17:characteristic}(self):
+		return ${18:True or False}
 
 	# Access Methods
 	def get_$9_point(self):
@@ -43,15 +43,15 @@ class ${1:ClassName}(${2:object}):
 	"""
 		return (data_point for data_point in self.$9)
 	
-	def add_$9(self, ${18:arg}):
-		self.$9.append($18)
+	def add_$9(self, ${19:arg}):
+		self.$9.append($19)
 	
-	def remove_$9(self, ${19:arg}):
-		self.$9.remove($19)
+	def remove_$9(self, ${20:arg}):
+		self.$9.remove($20)
 	
 	# Helper for predicates
-	def $15(self):
-		return ${20:}
+	def $16(self):
+		return ${21:something}
 	
 
 ]]>

@@ -6,5 +6,5 @@ dir(${1:object})
 </content>
 	<tabTrigger>class</tabTrigger>
 	<scope>source.python</scope>
-	<description>Object attributes</description>
+	<description>Object Attributes</description>
 </snippet>

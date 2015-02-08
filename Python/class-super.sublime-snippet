@@ -1,10 +1,10 @@
 <snippet>
 <content>
 <![CDATA[
-dir(${1:object})
+super(self.__class__, ${1:self}).${2:method}(${3:*args, **kwargs})
 ]]>
 </content>
 	<tabTrigger>class</tabTrigger>
 	<scope>source.python</scope>
-	<description>Attribute list</description>
+	<description>Class Super Method</description>
 </snippet>

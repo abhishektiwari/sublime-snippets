@@ -6,5 +6,5 @@ ${1:object}.__dict__
 </content>
 	<tabTrigger>class</tabTrigger>
 	<scope>source.python</scope>
-	<description>Object dict</description>
+	<description>Object Dict</description>
 </snippet>

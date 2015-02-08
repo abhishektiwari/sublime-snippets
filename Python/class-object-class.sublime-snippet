@@ -1,10 +1,10 @@
 <snippet>
 <content>
 <![CDATA[
-dir(${1:object})
+${1:object}.__class__.__name__
 ]]>
 </content>
 	<tabTrigger>class</tabTrigger>
 	<scope>source.python</scope>
-	<description>Object class name</description>
+	<description>Object Class Name</description>
 </snippet>

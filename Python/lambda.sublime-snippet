@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+lambda ${1:arg}, ${2:arg}${3:,${4:...}}: ${5:expression}
+]]>
+</content>
+	<tabTrigger>functional</tabTrigger>
+	<scope>source.python</scope>
+	<description>lambda</description>
+</snippet>

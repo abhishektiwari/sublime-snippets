@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+zip(${1:iterable}, ${2:iterable2} ${3:, ${4:iterable2}})
+]]>
+</content>
+	<tabTrigger>functional</tabTrigger>
+	<scope>source.python</scope>
+	<description>zip</description>
+</snippet>

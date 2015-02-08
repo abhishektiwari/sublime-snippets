@@ -1,0 +1,11 @@
+<snippet>
+<content>
+<![CDATA[
+while ${1:Condition}:
+	${0:pass}
+]]>
+</content>
+	<tabTrigger>loop</tabTrigger>
+	<scope>source.python</scope>
+	<description>while</description>
+</snippet>
